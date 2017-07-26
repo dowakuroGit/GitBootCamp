@@ -23,4 +23,6 @@
 12.git checkout fix/42
    指定したファイル名のブランチを作成する。ただし、HEADは更新されない。
 13.git rebase master
-  説明は後で書く
+  現在のブランチが生えているポイントをmasterの最新のコミットに変更する
+17.git remote add; git fetch -all
+  ＜TODO＞
