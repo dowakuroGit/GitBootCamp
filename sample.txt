@@ -61,14 +61,13 @@ Gitかるたの簡単説明書
 ローカルブランチからの基本的な操作
 
 --ローカルブランチでの作業
-0. git chechout ブランチ
-1．ファイルを編集
-2．git add ファイル名
-3. git commit
-4. git rebase master
+1. git chechout ブランチ
+2．ファイルを編集
+3．git add ファイル名
+4. git commit
 --ローカルマスターでの作業
 5. git chechout master
-6. git pull   <- ローカルマスターとリモートマスターを同期：更新が入ればconflictあり
+6. git pull   <- ローカルマスターとリモートマスターを同期：更新が入ればconflictあり??? このへんの手順が怪しい
 7. git marge umetani  <- conflictがある場合修正
 8. git push  <- リモートにローカルの編集を反映
 
