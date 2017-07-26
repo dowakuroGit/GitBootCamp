@@ -74,5 +74,6 @@ Gitかるたの簡単説明書
 6. git chechout master
 7. git pull   <- ローカルマスターとリモートマスターを同期：更新が入ればconflictあり。
 8. git marge umetani  <- conflictがある場合修正
+  修正があった場合は、ローカルマスターに add, commit <- これがあった場合、手順1.の追記部分の対応が必要になりそう
 9. git push  <- リモートにローカルの編集を反映
 
