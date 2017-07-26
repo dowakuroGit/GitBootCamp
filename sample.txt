@@ -44,4 +44,5 @@
 20.git push
    ローカルでの変更をリモートに反映する
    反映の際、マージが実施される。リモート / ローカルのmasterとHEADが一致した状態となる
-21. git cherry pick 2
+21.git cherry pick 2
+  特定のコミット内容のみを適用する
