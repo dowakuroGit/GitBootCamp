@@ -41,4 +41,7 @@
 19.git pull --rebase
   共有リポジトリのコミットをローカルリポジトリに取り込む。
   「git fetch」 + 「git rebase」の動作
+20.git push
+   ローカルでの変更をリモートに反映する
+   反映の際、マージが実施される。リモート / ローカルのmasterとHEADが一致した状態となる
 21. git cherry pick 2
