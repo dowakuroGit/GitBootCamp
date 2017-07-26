@@ -41,3 +41,4 @@
 19.git pull --rebase
   共有リポジトリのコミットをローカルリポジトリに取り込む。
   「git fetch」 + 「git rebase」の動作
+21. git cherry pick 2
