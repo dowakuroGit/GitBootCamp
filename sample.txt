@@ -60,18 +60,19 @@ Gitかるたの簡単説明書
 --------------------------------------------------------
 ローカルブランチからの基本的な操作
 
+--ローカルブランチに移動
+0. git chechout ブランチ
 --ローカルブランチでの作業
-1. git chechout ブランチ
-2. git rebase master ローカルマスターとブランチを同期
+1. git rebase master ローカルマスターとブランチを同期
   前回リモートにpushする際にマージ作業があった場合、
   ローカルマスターとローカルブランチの基準点がずれるので、それをまず合わせてブランチの作業を行うのが安全。
-3．ファイルを編集
-4．git add ファイル名
-5. git commit
-6. git rebase master
+2．ファイルを編集
+3．git add ファイル名
+4. git commit
+5. git rebase master
 --ローカルマスターでの作業
-7. git chechout master
-8. git pull   <- ローカルマスターとリモートマスターを同期：更新が入ればconflictあり。
-9. git marge umetani  <- conflictがある場合修正
-10. git push  <- リモートにローカルの編集を反映
+6. git chechout master
+7. git pull   <- ローカルマスターとリモートマスターを同期：更新が入ればconflictあり。
+8. git marge umetani  <- conflictがある場合修正
+9. git push  <- リモートにローカルの編集を反映
 
