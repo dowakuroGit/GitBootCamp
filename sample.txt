@@ -16,3 +16,5 @@
   コミット実行後、「fix/42」のブランチに移動する。
 8.git reset -hard master
   ブランチ作業を捨てて、ローカルのmasterを強制的にリモートのmasterに合わせる
+9.git merge fix/42
+  fix/42ブランチを現在ブランチにマージする
