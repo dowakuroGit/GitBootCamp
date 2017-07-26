@@ -18,3 +18,5 @@
   指定した名前のブランチを作成する(この場合、fix/42)。また、HEADが指定したブランチに移動する
 8.git reset -hard master
   ブランチ作業を捨てて、ローカルのmasterを強制的にリモートのmasterに合わせる
+13.git rebase master
+  説明は後で書く
